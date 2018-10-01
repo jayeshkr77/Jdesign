@@ -1,0 +1,71 @@
+:root{
+    --background-color:#000;
+    --text-color:#fff;
+    --nav-link : white;
+    --nav-vlink : white;
+    --nav-alink : white;
+    --nav-hoover : #777;
+}
+.navbar{
+    width : 100%;
+    background-color: var(--background-color);
+    height : 7vh;
+    color:var(--text-color);
+    padding-top: 15px;
+}
+
+.sidenav{
+    width : 30%;
+    max-width:200px;
+    background-color : var(--background-color);
+    height : 100vh;
+    color : var(--text-color);
+    padding-top: 15px;
+    padding-left:20px;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+}
+.navbar a:link{
+    color: var(--nav-link);
+    text-decoration: none;
+}
+.navbar a:visited{
+    color: var(--nav-vlink);
+    text-decoration: none;
+}
+.navbar a:active{
+    color: var(--nav-alink);
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--nav-hoover);
+}
+
+.sidenav a:link{
+    color: var(--nav-link);
+    text-decoration: none;
+}
+.sidenav a:visited{
+    color: var(--nav-vlink);
+    text-decoration: none;
+}
+.sidenav a:active{
+    color: var(--nav-alink);
+    text-decoration: none;
+}
+.sidenav a:hover{
+    color: var(--nav-hoover);
+}
+.left{
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+}
+.right{
+    float:right;
+    margin-left:5px;
+    margin-right:5px;
+}
